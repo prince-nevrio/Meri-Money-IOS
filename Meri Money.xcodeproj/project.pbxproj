@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		633D38393CE1E2CF9C7A47FB /* Pods_Meri_Money.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8FB9BBB4B83398EBF2B7B5 /* Pods_Meri_Money.framework */; };
+		AE6DD9122A20CBA700EB6522 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD9112A20CBA700EB6522 /* Constants.swift */; };
+		AE6DD9172A21CCC500EB6522 /* SignUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD9162A21CCC500EB6522 /* SignUpDataModel.swift */; };
+		AE6DD91B2A21F32700EB6522 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD91A2A21F32700EB6522 /* BaseViewController.swift */; };
+		AE6DD9202A245E0200EB6522 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD91F2A245E0200EB6522 /* MyUserDefaults.swift */; };
+		AE6DD9282A246E4D00EB6522 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD9272A246E4D00EB6522 /* HomeViewController.swift */; };
+		AE6DD92A2A246FA100EB6522 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6DD9292A246FA100EB6522 /* DashBoardViewController.swift */; };
+		AEB0CB892A25CD9C00A3C81D /* AddsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB0CB882A25CD9C00A3C81D /* AddsCollectionViewCell.swift */; };
 		AEB47E022A1F797E00812FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47E012A1F797E00812FCF /* AppDelegate.swift */; };
 		AEB47E042A1F797E00812FCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47E032A1F797E00812FCF /* SceneDelegate.swift */; };
 		AEB47E062A1F797E00812FCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47E052A1F797E00812FCF /* ViewController.swift */; };
@@ -20,6 +27,13 @@
 
 /* Begin PBXFileReference section */
 		AB2524E43E0D95A92ADBA3AE /* Pods-Meri Money.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meri Money.release.xcconfig"; path = "Target Support Files/Pods-Meri Money/Pods-Meri Money.release.xcconfig"; sourceTree = "<group>"; };
+		AE6DD9112A20CBA700EB6522 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE6DD9162A21CCC500EB6522 /* SignUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDataModel.swift; sourceTree = "<group>"; };
+		AE6DD91A2A21F32700EB6522 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AE6DD91F2A245E0200EB6522 /* MyUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
+		AE6DD9272A246E4D00EB6522 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE6DD9292A246FA100EB6522 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		AEB0CB882A25CD9C00A3C81D /* AddsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddsCollectionViewCell.swift; sourceTree = "<group>"; };
 		AEB47DFE2A1F797E00812FCF /* Meri Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meri Money.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB47E012A1F797E00812FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB47E032A1F797E00812FCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +43,7 @@
 		AEB47E0D2A1F797E00812FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB47E102A1F797E00812FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB47E122A1F797E00812FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AED8B4872A20752C00658E0E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "Meri Money/SignUpViewController.swift"; sourceTree = SOURCE_ROOT; };
+		AED8B4872A20752C00658E0E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "Meri Money/Ui/AuthScreens/SignUp/SignUpViewController.swift"; sourceTree = SOURCE_ROOT; };
 		BEF39B49092E8FD2A585A97C /* Pods-Meri Money.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meri Money.debug.xcconfig"; path = "Target Support Files/Pods-Meri Money/Pods-Meri Money.debug.xcconfig"; sourceTree = "<group>"; };
 		DA8FB9BBB4B83398EBF2B7B5 /* Pods_Meri_Money.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meri_Money.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,8 +66,52 @@
 				BEF39B49092E8FD2A585A97C /* Pods-Meri Money.debug.xcconfig */,
 				AB2524E43E0D95A92ADBA3AE /* Pods-Meri Money.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE6DD9102A20CB7300EB6522 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DD91A2A21F32700EB6522 /* BaseViewController.swift */,
+				AE6DD9112A20CBA700EB6522 /* Constants.swift */,
+				AE6DD91F2A245E0200EB6522 /* MyUserDefaults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE6DD91C2A21F92C00EB6522 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DD9162A21CCC500EB6522 /* SignUpDataModel.swift */,
+				AED8B4872A20752C00658E0E /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		AE6DD9232A246DE700EB6522 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DD9242A246DF700EB6522 /* HomeScreen */,
+				AE6DD9292A246FA100EB6522 /* DashBoardViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		AE6DD9242A246DF700EB6522 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AEB0CB7D2A24B96500A3C81D /* Category */,
+				AE6DD9272A246E4D00EB6522 /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		AEB0CB7D2A24B96500A3C81D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AEB0CB882A25CD9C00A3C81D /* AddsCollectionViewCell.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		AEB47DF52A1F797E00812FCF = {
@@ -93,6 +151,8 @@
 		AED8B4822A20745000658E0E /* Ui */ = {
 			isa = PBXGroup;
 			children = (
+				AE6DD9232A246DE700EB6522 /* DashBoard */,
+				AE6DD9102A20CB7300EB6522 /* Utils */,
 				AED8B4832A20747F00658E0E /* AuthScreens */,
 			);
 			path = Ui;
@@ -101,7 +161,7 @@
 		AED8B4832A20747F00658E0E /* AuthScreens */ = {
 			isa = PBXGroup;
 			children = (
-				AED8B4872A20752C00658E0E /* SignUpViewController.swift */,
+				AE6DD91C2A21F92C00EB6522 /* SignUp */,
 			);
 			path = AuthScreens;
 			sourceTree = "<group>";
@@ -232,8 +292,15 @@
 				AEB47E062A1F797E00812FCF /* ViewController.swift in Sources */,
 				AEB47E022A1F797E00812FCF /* AppDelegate.swift in Sources */,
 				AEB47E042A1F797E00812FCF /* SceneDelegate.swift in Sources */,
+				AE6DD9172A21CCC500EB6522 /* SignUpDataModel.swift in Sources */,
+				AEB0CB892A25CD9C00A3C81D /* AddsCollectionViewCell.swift in Sources */,
+				AE6DD91B2A21F32700EB6522 /* BaseViewController.swift in Sources */,
+				AE6DD9282A246E4D00EB6522 /* HomeViewController.swift in Sources */,
+				AE6DD9202A245E0200EB6522 /* MyUserDefaults.swift in Sources */,
 				AEB47E0C2A1F797E00812FCF /* Meri_Money.xcdatamodeld in Sources */,
+				AE6DD92A2A246FA100EB6522 /* DashBoardViewController.swift in Sources */,
 				AED8B4882A20752C00658E0E /* SignUpViewController.swift in Sources */,
+				AE6DD9122A20CBA700EB6522 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +453,9 @@
 				INFOPLIST_FILE = "Meri Money/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Meri Money";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -416,8 +484,9 @@
 				INFOPLIST_FILE = "Meri Money/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Meri Money";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
